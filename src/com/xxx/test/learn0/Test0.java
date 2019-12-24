@@ -22,7 +22,7 @@ public class Test0 {
 
     @Test
     public void test111(){
-        //lambda。。
+        //lambda。。小行星
         test000(99,a -> a>100);
         test000(99,(int a) -> a>100);
         test000(99,(int a) -> { a++; return a>100;});
